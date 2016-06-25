@@ -36,7 +36,7 @@ a{
 
 .first {
   height: 500px;
-  background: url(https://static11.elemecdn.com/eleme/desktop/media/img/map.012b5c.png) no-repeat #008de1;
+  background: url(../img/map.012b5c.png) no-repeat #008de1;
   background-size: cover;
   .header {
     padding-top: 25px;
@@ -213,7 +213,7 @@ a{
 
 
 
-@font-face{font-family:eleme;src:url(../public/font/eleme.432470.eot);src:local('â˜ºï¸Ž'),url(../public/font/eleme.9e165a.woff) format('woff'),url(../public/font/eleme.0265d6.ttf) format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:eleme;src:url(../font/eleme.432470.eot);src:local('â˜ºï¸Ž'),url(../font/eleme.9e165a.woff) format('woff'),url(../font/eleme.0265d6.ttf) format('truetype');font-weight:400;font-style:normal}
 
 [class^=icon-] {
   font-family: eleme;
