@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 1060px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.clearfix {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
+  &.no-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.first {
+  height: 500px;
+  background: url(http://static11.elemecdn.com/eleme/desktop/media/img/map.012b5c.png) no-repeat #008de1;
+  background-size: cover;
+  .header {
+    padding-top: 25px;
+    color: #fff;
+    line-height: 45px;
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+      word-spacing: 0.4em;
+      .btn-security {
+        margin-left: 10px;
+      }
+    }
+  }
+  .main {
+    position: relative;
+    top: 17%;
+    .title {
+      margin-bottom: 53px;
+      color: #fff;
+      font-size: 50px;
+      max-height: 100px;
+      text-align: center;
+    }
+    .search {
+      width: 798px;
+      margin: 0 auto;
+      line-height: 56px;
+      .city {
+        float: left;
+        width: 130px;
+        display: block;
+        position: relative;
+        background-color: #fff;
+        width: 130px;
+        text-align: center;
+        height:56px;
+        color: #333;
+        font-size: 20px;
+        &::after {
+          display: inline-block;
+          content: '';
+          position: absolute;
+          top: 45%;
+          right: 13px;
+          margin-left: 5px;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 5px solid #999;
+        }
+      }
+      input {
+        float: left;
+        width: 500px;
+        height: 56px;
+        background-color: #fff;
+        border: none;
+        outline:none;
+        font-size: 16px;
+      }
+      button {
+        font-size: 20px;
+        width: 158px;
+        line-height: 56px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.last {
+  .app {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+    .img {
+      display: inline-block;
+      position: relative;
+      width: 160px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      img {
+        width: 100%;
+      }
+      span {
+        position: absolute;
+        bottom: 0;
+        left: 25px;
+        right: 25px;
+        background-color: #fff;
+        margin-bottom: -10px;
+        text-align: center;
+      }
+    }
+    .text {
+      text-align: left;
+      margin-left: 20px;
+      font-size: 16px;
+      display: inline-block;
+      strong {
+        font-size: 30px;
+      }
+      .color-stress {
+        color: #f74342;
+      }
+      p {
+        &:nth-of-type(2) {
+          color: #666;
+        }
+      }
+    }
+  }
+  .footer{
+    text-align: center;
+    .link {
+      color: #666;
+      font-size: 12px;
+      line-height: 1;
+      margin-bottom: 10px;
+      a {
+        display: inline-block;
+        padding: 0 7px;
+        border-left: 1px solid #ccc;
+        &:first-child {
+          border-left: 0;
+        }
+      }
+    }
+    .copyright {
+      font-size: 12px;
+      text-align: center;
+      color: #999;
+    }
+  }
+}
+
+[class^=btn-] {
+  display: inline-block;
+  line-height: 1;
+  border: none;
+  border-radius: 2px;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+}
+.btn-security {
+  background-color: #5db423;
+  &.btn-sm {
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+}
+.btn-stress {
+  background-color: #f74342;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{font-family:eleme;src:url(http://static11.elemecdn.com/eleme/desktop/media/font/eleme.432470.eot);src:local('â˜ºï¸Ž'),url(http://static11.elemecdn.com/eleme/desktop/media/font/eleme.9e165a.woff) format('woff'),url(http://static11.elemecdn.com/eleme/desktop/media/font/eleme.0265d6.ttf) format('truetype'),url(http://static11.elemecdn.com/eleme/desktop/media/font/eleme.130bd5.svg#eleme) format('svg');font-weight:400;font-style:normal}
+
+[class^=icon-] {
+  font-family: eleme;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.icon-logo-map::before {
+  content: '\e92a';
+}
+
+.icon-logo-text::before {
+  content: '\e92b';
+}

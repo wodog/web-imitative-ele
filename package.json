@@ -1,0 +1,15 @@
+{
+  "name": "web-imitative-ele",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass -w public/css/index.scss public/css/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
