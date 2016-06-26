@@ -221,3 +221,124 @@ span {
 .section3 .item .content .subtitle {
   font-size: 16px;
   color: #888; }
+
+.section4 {
+  background-image: url(../img/join-us-bg.png);
+  height: 408px;
+  text-align: center;
+  padding-top: 100px; }
+
+.section4 .title {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px; }
+
+.section5 {
+  height: 400px;
+  background-color: #fff;
+  text-align: center; }
+
+.section5 .title {
+  font-size: 24px;
+  color: #333;
+  padding-top: 89px;
+  font-weight: 500;
+  line-height: 1.1; }
+
+.section5 .list .img {
+  float: left;
+  width: 114px;
+  height: 43px;
+  line-height: 43px;
+  margin: 60px 46px 1px 0; }
+
+.section5 .list .img img {
+  vertical-align: middle;
+  width: 70%; }
+
+.section6 {
+  text-align: center;
+  height: 281px;
+  background-color: #4a90e2;
+  color: #fff; }
+
+.section6 .title {
+  padding-top: 50px;
+  font-size: 32px; }
+
+.section6 .subtitle {
+  padding-top: 10px;
+  font-size: 20px; }
+
+.section6 .btn {
+  margin: auto;
+  margin-top: 35px;
+  position: relative;
+  width: 284px;
+  height: 84px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px; }
+
+.section6 .btn a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  background-color: #f5f7f9;
+  width: 256px;
+  height: 56px;
+  font-size: 24px;
+  color: #4a90e2;
+  border-radius: 3px;
+  padding: 6px 12px; }
+
+.footer {
+  height: 270px;
+  background-color: #f5f7f9;
+  padding-top: 71px; }
+
+.footer .logo {
+  float: left;
+  font-size: 12px;
+  color: #747c83; }
+
+.footer .logo span {
+  display: inline-block;
+  margin-top: 10px; }
+
+.footer .list {
+  margin-left: 120px;
+  float: left; }
+
+.footer .list .item {
+  float: left;
+  padding-left: 20px;
+  padding-right: 40px; }
+
+.footer .list .item .title {
+  font-size: 15px;
+  font-weight: 100;
+  color: #333;
+  margin-bottom: 10px; }
+
+.footer .list .item a {
+  display: block;
+  font-size: 12px;
+  color: #aaa; }
+
+.footer .contact {
+  float: right;
+  color: #666;
+  border-left: 1px solid #e7e7e7;
+  padding-left: 30px; }
+
+.footer .contact p:first-child {
+  margin-top: 0; }
+
+.footer .contact img {
+  margin: 0 6px;
+  vertical-align: middle; }
