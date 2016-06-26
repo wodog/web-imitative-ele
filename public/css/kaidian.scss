@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 1060px;
+  font-size: 14px;
+  font-family: 微软雅黑,宋体;
+}
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+span {
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 640px;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  a {
+    color: #fff;
+  }
+  .nav {
+    height: 58px;
+    line-height: 58px;
+    color: #fff;
+    overflow: hidden;
+    .logo {
+      float: left;
+      position: relative;
+      img {
+        vertical-align: middle;
+      }
+      span {
+        position: absolute;
+        top: 3px;
+        right: -81px;
+        font-size: 18px;
+      }
+    }
+    .info {
+      float: right;
+      margin-top: 7px;
+      div {
+        display: inline-block;
+        padding: 0 5px;
+      }
+    }
+  }
+  .header-line {
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.3;
+  }
+  .body {
+    margin-top: 83.4px;
+    .description {
+      text-indent: 17px;
+      font-size: 18px;
+      letter-spacing:2px;
+      color: #fff;
+      margin-bottom: 59px;
+    }
+  }
+  .footer {
+    background-color: hsla(0,0%,100%,.25);
+    border-radius: 5px;
+    height: 84px;
+    width: 284px;
+    margin: 0 auto;
+    div {
+      text-align: center;
+      position:relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      display: inline-block;
+      width: 256px;
+      height: 56px;
+      background-color: #4a90e2;
+      color: #fff;
+      font-size: 24px;
+      padding: 6px 12px;
+      line-height: 1.8;
+      border-radius: 4px;
+    }
+  }
+}
+
+.section1 {
+  height: 412px;
+  background-color: #fff;
+  .item {
+    display: inline-block;
+    width: 200px;
+    margin: 51px 73px 0 38px;
+    padding-top: 76px;
+    padding-bottom: 83px;
+    vertical-align: top;
+    .img {
+      height: 65px;
+      text-align: center;
+    }
+    .title {
+      margin: 15px 0 10px 28px;
+      font-size: 18px;
+      color: #ff6000;
+      span {
+        vertical-align: bottom;
+        display: inline-block;
+        background-color: #ff6000;
+        color: #fff;
+        height: 24px;
+        width: 24px;
+        line-height: 24px;
+        text-align: center;
+        font-size: 12px;
+        margin-right: 3px;
+      }
+    }
+    .content {
+      font-size: 16px;
+      color: #888;
+      margin: 0 auto 0 28px;
+    }
+  }
+}
+
+.section2 {
+  background-color: #f5f7f9;
+  height: 410px;
+  .container {
+    padding-top: 70px;
+    padding-bottom: 36px;
+  }
+  .img {
+    float: left;
+    background-image: url(../img/apps.png);
+    width: 620px;
+    height: 290px;
+  }
+  .text {
+    margin-left: 20px;
+    float: left;
+    p {
+      margin: 8px;
+    }
+    .blue {
+      color: #4a90e2;
+    }
+    .title {
+      font-size: 60px;
+    }
+    .subtitle {
+      font-size: 24px;
+    }
+    .red {
+      color: #ff6000;
+    }
+  }
+}
+
+.section3 {
+  overflow: hidden;
+  .item {
+    margin-top:64px;
+    width: 50%;
+    float: left;
+
+    &:last-child {
+      margin-bottom: 104px;
+    }
+
+    .circle {
+      position: relative;
+      float: left;
+      width: 164px;
+      height: 164px;
+      border-radius: 50%;
+      background-color:hsla(0,0%,84%,.22);
+    }
+    [class^=img-] {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 94px;
+    }
+    .img-1 {
+      background-image: url(../img/icons-01.png);
+    }
+    .img-2 {
+      background-image: url(../img/icons-02.png);
+    }
+    .img-3 {
+      background-image: url(../img/icons-03.png);
+    }
+    .img-4 {
+      background-image: url(../img/icons-04.png);
+    }
+    .content {
+      float: left;
+      width: 256px;
+      margin: 22px 0 0 20px;
+      .title {
+        margin: 20px 0 10px 0;
+        font-size: 24px;
+        color: #4a4a4a;
+      }
+      .subtitle {
+        font-size: 16px;
+        color: #888;
+      }
+    }
+  }
+}
