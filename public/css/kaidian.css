@@ -73,6 +73,7 @@ span {
   margin-bottom: 59px; }
 
 .header .footer {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
   height: 84px;
@@ -81,7 +82,7 @@ span {
 
 .header .footer div {
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
